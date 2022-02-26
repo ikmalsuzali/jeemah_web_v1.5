@@ -1,6 +1,7 @@
 import { canNavigate } from '@/plugins/acl/routeProtection'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import admin from './admin'
 import apps from './apps'
 import dashboard from './dashboard'
 import pages from './pages'
@@ -17,7 +18,7 @@ const routes = [
       const userData = JSON.parse(localStorage.getItem('userData'))
       const userRole = userData && userData.role ? userData.role : null
 
-      if (userRole === 'admin') return { name: 'dashboard-crm' }
+      if (userRole === 'admin') return { name: 'admin-dashboard-home' }
       if (userRole === 'client') return { name: 'page-access-control' }
 
       return { name: 'auth-login', query: to.query }
@@ -66,6 +67,7 @@ const routes = [
   ...userInterface,
   ...apps,
   ...pages,
+  ...admin,
   {
     path: '*',
     redirect: 'error-404',

@@ -3,22 +3,22 @@
     <v-row class="ma-0 pa-0">
       <v-col cols="8">
         <v-card-title class="text-no-wrap pt-1 ps-2">
-          Congratulations John! 🥳
+          Welcome User! 🥳
         </v-card-title>
         <v-card-subtitle class="text-no-wrap ps-2">
-          You have won Trophy
+          Last entered
         </v-card-subtitle>
         <v-card-text class="d-flex align-center mt-2 pb-2 ps-2">
           <div>
-            <p class="text-xl font-weight-semibold primary--text mb-2">
+            <!-- <p class="text-xl font-weight-semibold primary--text mb-2">
               $42.8k
-            </p>
+            </p> -->
 
             <v-btn
               small
               color="primary"
             >
-              View Sales
+              View settings
             </v-btn>
           </div>
         </v-card-text>

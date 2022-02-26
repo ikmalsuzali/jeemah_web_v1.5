@@ -1,7 +1,7 @@
 const dashboard = [
   {
-    path: '/dashboards/analytics',
-    name: 'dashboard-analytics',
+    path: '/admin/home',
+    name: 'dashboard-home',
     component: () => import('@/views/dashboards/analytics/Analytics.vue'),
     meta: {
       layout: 'content',

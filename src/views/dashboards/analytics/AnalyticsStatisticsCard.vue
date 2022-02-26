@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-card-title class="align-start">
-      <span class="font-weight-semibold">Statistics Card</span>
+      <span class="font-weight-semibold">Quick Statistics</span>
       <v-spacer></v-spacer>
       <v-btn
         icon
@@ -14,9 +14,8 @@
       </v-btn>
     </v-card-title>
 
-    <v-card-subtitle class="mb-8 mt-n5">
-      <span class="font-weight-semibold text--primary me-1">Total 48.5% Growth</span>
-      <span>😎 this month</span>
+    <v-card-subtitle class="mt-n5">
+      <span class="font-weight-semibold text--primary me-1">Monthly snapshot</span>
     </v-card-subtitle>
 
     <v-card-text>
@@ -58,25 +57,25 @@
 
 <script>
 // eslint-disable-next-line object-curly-newline
-import { mdiAccountOutline, mdiCurrencyUsd, mdiTrendingUp, mdiDotsVertical, mdiLabelOutline } from '@mdi/js'
+import { mdiAccountOutline, mdiCurrencyUsd, mdiDotsVertical, mdiLabelOutline, mdiTrendingUp } from '@mdi/js'
 
 export default {
   setup() {
     const statisticsData = [
       {
-        title: 'Sales',
+        title: 'Donations',
         total: '245k',
       },
       {
-        title: 'Customers',
+        title: 'Services',
         total: '12.5k',
       },
       {
-        title: 'Product',
+        title: 'Followers',
         total: '1.54k',
       },
       {
-        title: 'Revenue',
+        title: 'Bookings',
         total: '$88k',
       },
     ]

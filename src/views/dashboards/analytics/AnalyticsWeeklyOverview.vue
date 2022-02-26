@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-card-title class="align-start">
-      <span>Weekly Overview</span>
+      <span>Weekly Followers Overview</span>
 
       <v-spacer></v-spacer>
 
@@ -28,7 +28,7 @@
         <h3 class="text-2xl font-weight-semibold me-4">
           45%
         </h3>
-        <span>Your sales perfomance in 45% 🤩 better compare to last month</span>
+        <span>Your followers has increased by 45% better compare to last month</span>
       </div>
 
       <v-btn
@@ -44,11 +44,11 @@
 </template>
 
 <script>
-import VueApexCharts from 'vue-apexcharts'
-// eslint-disable-next-line object-curly-newline
-import { mdiDotsVertical, mdiTrendingUp, mdiCurrencyUsd } from '@mdi/js'
-import { kFormatter } from '@core/utils/filter'
 import { getVuetify } from '@core/utils'
+import { kFormatter } from '@core/utils/filter'
+// eslint-disable-next-line object-curly-newline
+import { mdiCurrencyUsd, mdiDotsVertical, mdiTrendingUp } from '@mdi/js'
+import VueApexCharts from 'vue-apexcharts'
 
 export default {
   components: {

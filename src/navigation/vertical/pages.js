@@ -4,22 +4,27 @@ export default [
   {
     title: 'Home',
     icon: mdiHomeOutline,
-    to: 'dashboard-analytics',
+    to: 'admin-dashboard-home',
   },
   {
     title: 'Announcements',
     icon: mdiPostOutline,
-    to: 'apps-users-list',
+    to: 'admin-announcement-list',
   },
   {
     title: 'Useful Contact No',
     icon: mdiPostOutline,
-    to: 'apps-users-list',
+    to: 'admin-useful-contact-no-list',
   },
   {
     title: 'Bookings',
     icon: mdiCalendarOutline,
-    to: 'apps-calendar',
+    to: 'admin-booking-list',
+  },
+  {
+    title: 'Organizational Chart',
+    icon: mdiCalendarOutline,
+    to: 'admin-organizational-chart-list',
   },
   {
     title: 'Chats',
@@ -29,12 +34,12 @@ export default [
   {
     title: 'Masjids',
     icon: mdiMessageTextOutline,
-    to: 'apps-user-list',
+    to: 'admin-masjid-list',
   },
   {
     title: 'Users',
     icon: mdiMessageTextOutline,
-    to: 'apps-user-list',
+    to: 'admin-user-list',
   },
   {
     title: 'Settings',

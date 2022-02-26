@@ -58,10 +58,10 @@
 </template>
 
 <script>
-import VueApexCharts from 'vue-apexcharts'
-// eslint-disable-next-line object-curly-newline
-import { mdiDotsVertical, mdiChevronUp, mdiChevronDown } from '@mdi/js'
 import { getVuetify } from '@core/utils'
+// eslint-disable-next-line object-curly-newline
+import { mdiChevronDown, mdiChevronUp, mdiDotsVertical } from '@mdi/js'
+import VueApexCharts from 'vue-apexcharts'
 
 // import { kFormatter } from '@core/utils/filter'
 

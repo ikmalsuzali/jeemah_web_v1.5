@@ -3,7 +3,6 @@
     <v-data-table
       :headers="tableColumnHeaders"
       :items="userListData"
-      show-select
       item-key="fullName"
       hide-default-footer
       class="table-rounded"
@@ -68,12 +67,12 @@
 
 <script>
 import {
-  mdiSquareEditOutline,
-  mdiDotsVertical,
-  mdiChartTimelineVariant,
   mdiAccountOutline,
-  mdiPencilOutline,
+  mdiChartTimelineVariant,
   mdiCogOutline,
+  mdiDotsVertical,
+  mdiPencilOutline,
+  mdiSquareEditOutline,
 } from '@mdi/js'
 
 export default {
